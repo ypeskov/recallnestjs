@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
-import { Cat } from './cat.interface';
+import { Cat } from './interfaces/cat.interface';
 
 let catInitial: Cat = {
   name: 'Buba',
   age: 13,
-  breed: 'dvor0000'
+  breed: 'dvor'
 }
 
 @Injectable()
